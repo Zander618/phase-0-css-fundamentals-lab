@@ -1,5 +1,38 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+h1 {
+ text-align: center;
+}
+
+img {
+  text-align: center;
+}
+
+nav#tabs{
+  text-align: center;
+}
+
+nav > a{
+  margin: auto;
+  padding: 10px;
+  font-size: small;
+  background: gray;
+}
+
+section#featured-property{
+  text-align: center;
+  font-size: medium;
+}
+
+a:link {
+  color:blue;
+}
+
+a:visited{
+  color:purple;
+}
+
+div{
+  background-color: seagreen;
+  text-align: center;
+  float:left;
+  width: 25%;
 }
